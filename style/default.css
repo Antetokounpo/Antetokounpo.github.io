@@ -42,12 +42,25 @@ section {
     flex-direction: column;
     padding: 5px;
     background-color: rgb(75, 90, 115);
+    min-height: 500px;
 }
 
 article {
     width: 70%;
     margin: 0 auto;
     padding: 2px;
+}
+
+.blog-entry-link:link {
+    text-decoration: none;
+}
+
+.blog-entry {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(100, 130, 170);
+    color: white;
 }
 
 p {
